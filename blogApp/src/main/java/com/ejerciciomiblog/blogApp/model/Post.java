@@ -1,6 +1,8 @@
-package com.ejerciciomiblog.blogApp.Model;
+package com.ejerciciomiblog.blogApp.model;
 
 import jakarta.persistence.*;
+
+import java.util.List;
 
 
 @Entity //le dice a JPA que esta clase se debe guardar como una tabla
@@ -8,6 +10,12 @@ public class Post {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY) //Definen la clase primaria
     private Long id;
+
+    @ManyToOne
+    private Author author;
+
+    @OneToMany(mappedBy = "post", cascade = CascadeType.ALL)
+    private List<Comment> comments;
 
     private String titulo;
     private String contenido;

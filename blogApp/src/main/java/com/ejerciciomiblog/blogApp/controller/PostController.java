@@ -1,7 +1,7 @@
-package com.ejerciciomiblog.blogApp.Controller;
+package com.ejerciciomiblog.blogApp.controller;
 
-import com.ejerciciomiblog.blogApp.Model.Post;
-import com.ejerciciomiblog.blogApp.Service.PostService;
+import com.ejerciciomiblog.blogApp.model.Post;
+import com.ejerciciomiblog.blogApp.service.PostService;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

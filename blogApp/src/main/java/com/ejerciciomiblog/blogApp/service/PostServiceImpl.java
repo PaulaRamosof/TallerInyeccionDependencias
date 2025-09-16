@@ -1,7 +1,7 @@
-package com.ejerciciomiblog.blogApp.Service;
+package com.ejerciciomiblog.blogApp.service;
 
-import com.ejerciciomiblog.blogApp.Model.Post;
-import com.ejerciciomiblog.blogApp.Repository.PostRepository;
+import com.ejerciciomiblog.blogApp.model.Post;
+import com.ejerciciomiblog.blogApp.repository.PostRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

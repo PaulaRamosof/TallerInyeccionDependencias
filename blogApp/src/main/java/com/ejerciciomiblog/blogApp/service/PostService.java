@@ -1,6 +1,6 @@
-package com.ejerciciomiblog.blogApp.Service;
+package com.ejerciciomiblog.blogApp.service;
 
-import com.ejerciciomiblog.blogApp.Model.Post;
+import com.ejerciciomiblog.blogApp.model.Post;
 import java.util.List;
 
 public interface PostService {
